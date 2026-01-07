@@ -10,13 +10,13 @@ This repository contains the **code and data** used to develop and evaluate **XG
 ### 📁 Code
 
 - `XGB_metal_selection.ipynb`  
-  ➤ Implements metal selection using XGBoost regression with spectral input features.
+  ➤ Metal selection via feature importance analysis using XGBoost regression model.
 
 - `Clustering_spectra_with_PCA.ipynb`  
-  ➤ Applies PCA to cluster reference spectra of similar chemical profiles.
+  ➤ Clustering compounds with similar UV spectra by PCA.
 
 - `UV_unmixing.ipynb`  
-  ➤ Demonstrates spectral unmixing (simple version).  
+  ➤ A simple version working example of spectral unmixing.  
   ➤ A more detailed implementation is available in [robowski-maps (GitHub)](https://github.com/yaroslavsobolev/robowski-maps), under `robowski/uv_vis_absorption_spectroscopy`.
 
 ---
@@ -24,26 +24,26 @@ This repository contains the **code and data** used to develop and evaluate **XG
 ### 📁 Data
 
 #### 📦 `data/UV_spectra/`
-Contains UV-Vis spectra for:
+Contains UV-Vis spectra files for:
 - **Solvent background**
 - **Sample crude mixtures**
 - **Reference basis sets**
 
 ##### 📄 Basis Set Files:
-- **Model 1** (6 references):  
+- **Model_1** (6 references):  
   `Basis_set_6refs_0.5mM.csv`
 
-- **Model 2** (11 references):  
+- **Model_2** (11 references):  
   `Basis_set_11refs_0.5mM.csv`
 
-- **Model 3** (PCA-clustered, 11 references):  
+- **Model_3** (PCA-clustered, 11 references):  
   `Basis_set_11refs_with_PCA_0.5mM.csv`
 
 ##### 📄 Sample Spectra:
-- **Round 1 screening (11 metals, Model 1)**:  
+- **Round 1 screening (11 B site metals, Model 1)**:  
   `Sample_crude_spectra_11metals.csv`
 
-- **Round 2 screening (6 metals, Models 2 & 3)**:  
+- **Round 2 screening (6 B site metals, Models 2 & 3)**:  
   `Sample_crude_spectra_6metals.csv`
 
 ---
