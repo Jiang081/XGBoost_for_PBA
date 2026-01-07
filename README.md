@@ -1,5 +1,5 @@
 
-# 🧪 Code & data for multimetallic PBAs catalysts
+# Code & data for multimetallic PBAs catalysts
 
 This repository contains the **code and data** used to develop and evaluate the related paper “Hyperspace mapping and iterative dimensionality reduction reveal radical cascade networks controlled by perovskite-type catalysts”.
 
