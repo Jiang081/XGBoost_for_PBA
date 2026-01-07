@@ -1,7 +1,7 @@
 
-# 🧪 Metal Species Screening for PBA Catalyst Using XGBoost
+# 🧪 Code & data for multimetallic PBAs catalysts
 
-This repository contains the **code and data** used to develop and evaluate **XGBoost regression models** for screening metal species in Prussian Blue Analogue (PBA) catalysts, leveraging **UV-Vis spectral data**, **feature selection**, and **clustering**.
+This repository contains the **code and data** used to develop and evaluate the related paper “Hyperspace mapping and iterative dimensionality reduction reveal radical cascade networks controlled by perovskite-type catalysts”.
 
 ---
 
